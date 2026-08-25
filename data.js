@@ -2,7 +2,7 @@ const movieDatabase = {
   ironman1: {
     title: "Iron Man",
     year: "2008",
-    poster: "https://upload.wikimedia.org/wikipedia/en/0/00/Iron_Man_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
     genre: "Action, Sci-Fi",
     rating: "7.9",
     overview: "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
@@ -13,10 +13,10 @@ const movieDatabase = {
   ironman2: {
     title: "Iron Man 2",
     year: "2010",
-    poster: "https://upload.wikimedia.org/wikipedia/en/e/ed/Iron_Man_2_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/6WBeq4ubcw39VmuAWyt7Uw6959a.jpg",
     genre: "Action, Sci-Fi, Adventure",
     rating: "6.9",
-    overview: "With the world now aware of his identity, Tony Stark must contend with declining health and a vengeful madman with ties to his father's legacy.",
+    overview: "With the world now aware of his identity as Iron Man, Tony Stark must contend with declining health and a vengeful madman with ties to his father's legacy.",
     cast: "Robert Downey Jr., Mickey Rourke, Gwyneth Paltrow, Don Cheadle",
     trailerId: "wKtcmiifycU",
     downloadUrl: "#"
@@ -24,7 +24,7 @@ const movieDatabase = {
   ironman3: {
     title: "Iron Man 3",
     year: "2013",
-    poster: "https://upload.wikimedia.org/wikipedia/en/1/19/Iron_Man_3_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/qhPtAc1TKbMPqNvcdXS46su7Q5q.jpg",
     genre: "Action, Sci-Fi, Adventure",
     rating: "7.1",
     overview: "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
@@ -35,7 +35,7 @@ const movieDatabase = {
   captainamerica1: {
     title: "Captain America: The First Avenger",
     year: "2011",
-    poster: "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/vSNxAJTlD0r02V9sPYpqjqDIfj6.jpg",
     genre: "Action, Adventure, Sci-Fi",
     rating: "6.9",
     overview: "Steve Rogers transforms into Captain America after taking a Super-Soldier serum to stop the Red Skull.",
@@ -46,7 +46,7 @@ const movieDatabase = {
   captainamerica2: {
     title: "Captain America: The Winter Soldier",
     year: "2014",
-    poster: "https://upload.wikimedia.org/wikipedia/en/e/e8/Captain_America_The_Winter_Soldier.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/tVFRpFw3xTed5YGqq9Jw0ioPCIf.jpg",
     genre: "Action, Sci-Fi, Thriller",
     rating: "7.8",
     overview: "Steve Rogers teams up with Natasha Romanoff to battle a powerful assassin known as the Winter Soldier.",
@@ -57,7 +57,7 @@ const movieDatabase = {
   captainamerica3: {
     title: "Captain America: Civil War",
     year: "2016",
-    poster: "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
     genre: "Action, Sci-Fi, Adventure",
     rating: "7.8",
     overview: "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
@@ -68,7 +68,7 @@ const movieDatabase = {
   thor1: {
     title: "Thor",
     year: "2011",
-    poster: "https://upload.wikimedia.org/wikipedia/en/f/fc/Thor_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/prSfAi1xGrhLQNxVSUFh61xQ4Qx.jpg",
     genre: "Action, Fantasy, Sci-Fi",
     rating: "7.0",
     overview: "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard.",
@@ -79,7 +79,7 @@ const movieDatabase = {
   thor2: {
     title: "Thor: The Dark World",
     year: "2013",
-    poster: "https://upload.wikimedia.org/wikipedia/en/7/7f/Thor_The_Dark_World_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/wp6Ox9XJ6Z62zH4agk192W1Z9q7.jpg",
     genre: "Action, Fantasy, Sci-Fi",
     rating: "6.8",
     overview: "When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous personal journey.",
@@ -90,7 +90,7 @@ const movieDatabase = {
   thor3: {
     title: "Thor: Ragnarok",
     year: "2017",
-    poster: "https://upload.wikimedia.org/wikipedia/en/7/7d/Thor_Ragnarok_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
     genre: "Action, Adventure, Comedy",
     rating: "7.9",
     overview: "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök.",
@@ -101,7 +101,7 @@ const movieDatabase = {
   thor4: {
     title: "Thor: Love and Thunder",
     year: "2022",
-    poster: "https://upload.wikimedia.org/wikipedia/en/8/88/Thor_Love_and_Thunder_poster.jpeg",
+    poster: "https://image.tmdb.org/t/p/w500/pIkRyD18kl4F0b6MyrM9iAPvGmg.jpg",
     genre: "Action, Adventure, Comedy",
     rating: "6.2",
     overview: "Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher.",
@@ -112,7 +112,7 @@ const movieDatabase = {
   avengers1: {
     title: "The Avengers",
     year: "2012",
-    poster: "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
     genre: "Action, Sci-Fi",
     rating: "8.0",
     overview: "Earth's mightiest heroes must come together and learn to fight as a team to stop Loki and his alien army.",
@@ -123,7 +123,7 @@ const movieDatabase = {
   avengers2: {
     title: "Avengers: Age of Ultron",
     year: "2015",
-    poster: "https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/4ssDuvEDkS9urvtLgi1KgdfqBZw.jpg",
     genre: "Action, Sci-Fi, Adventure",
     rating: "7.3",
     overview: "When Tony Stark and Bruce Banner try to jump-start a peace program, things go wrong and the Avengers must stop Ultron.",
@@ -134,7 +134,7 @@ const movieDatabase = {
   avengers3: {
     title: "Avengers: Infinity War",
     year: "2018",
-    poster: "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
     genre: "Action, Adventure, Sci-Fi",
     rating: "8.4",
     overview: "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos.",
@@ -145,7 +145,7 @@ const movieDatabase = {
   avengers4: {
     title: "Avengers: Endgame",
     year: "2019",
-    poster: "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
     genre: "Action, Adventure, Drama",
     rating: "8.4",
     overview: "After the devastating events of Infinity War, the universe is in ruins. The remaining Avengers assemble to restore balance.",
@@ -156,7 +156,7 @@ const movieDatabase = {
   guardians1: {
     title: "Guardians of the Galaxy",
     year: "2014",
-    poster: "https://upload.wikimedia.org/wikipedia/en/b/b5/Guardians_of_the_Galaxy_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctetGCSpkmBqHAOF.jpg",
     genre: "Action, Adventure, Comedy",
     rating: "8.0",
     overview: "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
@@ -167,7 +167,7 @@ const movieDatabase = {
   guardians2: {
     title: "Guardians of the Galaxy Vol. 2",
     year: "2017",
-    poster: "https://upload.wikimedia.org/wikipedia/en/a/ab/Guardians_of_the_Galaxy_Vol_2_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/y4MBh0EjBlMuOzv9axM4qJmLRbF.jpg",
     genre: "Action, Adventure, Comedy",
     rating: "7.6",
     overview: "The Guardians struggle to keep together as a team while dealing with personal family issues, notably Star-Lord's father.",
@@ -178,7 +178,7 @@ const movieDatabase = {
   guardians3: {
     title: "Guardians of the Galaxy Vol. 3",
     year: "2023",
-    poster: "https://upload.wikimedia.org/wikipedia/en/7/74/Guardians_of_the_Galaxy_Vol._3_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/5YZbUmjbMa3ClvSW1Wj3D6XGolP.jpg",
     genre: "Action, Adventure, Comedy",
     rating: "7.9",
     overview: "Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and protect one of their own.",
@@ -189,7 +189,7 @@ const movieDatabase = {
   blackpanther1: {
     title: "Black Panther",
     year: "2018",
-    poster: "https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_film_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8vlKA.jpg",
     genre: "Action, Sci-Fi",
     rating: "7.3",
     overview: "T'Challa, heir to the hidden kingdom of Wakanda, must step forward to lead his people into a new future.",
@@ -200,7 +200,7 @@ const movieDatabase = {
   doctorstrange1: {
     title: "Doctor Strange",
     year: "2016",
-    poster: "https://upload.wikimedia.org/wikipedia/en/a/a1/Doctor_Strange_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wMgrghcyx.jpg",
     genre: "Action, Fantasy, Sci-Fi",
     rating: "7.5",
     overview: "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
@@ -211,7 +211,7 @@ const movieDatabase = {
   doctorstrange2: {
     title: "Doctor Strange in the Multiverse of Madness",
     year: "2022",
-    poster: "https://upload.wikimedia.org/wikipedia/en/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
     genre: "Action, Fantasy, Horror",
     rating: "6.9",
     overview: "Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses.",
@@ -222,7 +222,7 @@ const movieDatabase = {
   spidermanhomecoming: {
     title: "Spider-Man: Homecoming",
     year: "2017",
-    poster: "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
     genre: "Action, Adventure, Sci-Fi",
     rating: "7.4",
     overview: "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man.",
@@ -233,7 +233,7 @@ const movieDatabase = {
   spidermanfarfromhome: {
     title: "Spider-Man: Far From Home",
     year: "2019",
-    poster: "https://upload.wikimedia.org/wikipedia/en/b/bd/Spider-Man_Far_From_Home_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/4q2hz2mYflgSnTOpWdak5qiVG4C.jpg",
     genre: "Action, Adventure, Sci-Fi",
     rating: "7.4",
     overview: "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
@@ -244,7 +244,7 @@ const movieDatabase = {
   spidermannowayhome: {
     title: "Spider-Man: No Way Home",
     year: "2021",
-    poster: "https://upload.wikimedia.org/wikipedia/en/0/00/Spider-Man_No_Way_Home_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
     genre: "Action, Adventure, Fantasy",
     rating: "8.2",
     overview: "With Spider-Man's identity revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes appear.",
@@ -255,7 +255,7 @@ const movieDatabase = {
   batmanbegins: {
     title: "Batman Begins",
     year: "2005",
-    poster: "https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/4MpN4CwhvuaYrMNnhcuHV7GMFGQ.jpg",
     genre: "Action, Crime, Drama",
     rating: "8.2",
     overview: "After training with his mentor, Bruce Wayne begins his fight to free crime-ridden Gotham City from corruption.",
@@ -266,7 +266,7 @@ const movieDatabase = {
   thedarkknight: {
     title: "The Dark Knight",
     year: "2008",
-    poster: "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
     genre: "Action, Crime, Drama",
     rating: "9.0",
     overview: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological tests.",
@@ -277,7 +277,7 @@ const movieDatabase = {
   thedarkknightrises: {
     title: "The Dark Knight Rises",
     year: "2012",
-    poster: "https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/hrJUZ2KjW4758Oq8F9qGsk74gVn.jpg",
     genre: "Action, Drama, Thriller",
     rating: "8.4",
     overview: "Eight years after the Joker's reign of anarchy, Batman is forced from his exile by the brutal guerrilla terrorist Bane.",
@@ -288,7 +288,7 @@ const movieDatabase = {
   manofsteel: {
     title: "Man of Steel",
     year: "2013",
-    poster: "https://upload.wikimedia.org/wikipedia/en/8/85/ManofSteelFinalPoster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/7rIPjn5eluzA244OXscWpIZapg5.jpg",
     genre: "Action, Adventure, Sci-Fi",
     rating: "7.1",
     overview: "An alien child is evacuated from his dying world and sent to Earth, where he must become the hero known as Superman.",
@@ -299,7 +299,7 @@ const movieDatabase = {
   batmanvsuperman: {
     title: "Batman v Superman: Dawn of Justice",
     year: "2016",
-    poster: "https://upload.wikimedia.org/wikipedia/en/2/20/Batman_v_Superman_Dawn_of_Justice_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/5UsK3grJ9syzR749neCWHQo97cm.jpg",
     genre: "Action, Adventure, Sci-Fi",
     rating: "6.5",
     overview: "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of hero it needs.",
@@ -310,7 +310,7 @@ const movieDatabase = {
   wonderwoman1: {
     title: "Wonder Woman",
     year: "2017",
-    poster: "https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/imekS7f1OuHyUP2LAiTEM0zBzUz.jpg",
     genre: "Action, Adventure, Fantasy",
     rating: "7.4",
     overview: "When a pilot crashes and tells of conflict in the outside world, Diana leaves home to fight in a war to end all wars.",
@@ -321,7 +321,7 @@ const movieDatabase = {
   justiceleague: {
     title: "Zack Snyder's Justice League",
     year: "2021",
-    poster: "https://upload.wikimedia.org/wikipedia/en/3/31/Justice_League_film_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
     genre: "Action, Adventure, Fantasy",
     rating: "7.9",
     overview: "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince to recruit a team of metahumans.",
@@ -332,7 +332,7 @@ const movieDatabase = {
   aquaman1: {
     title: "Aquaman",
     year: "2018",
-    poster: "https://upload.wikimedia.org/wikipedia/en/3/3a/Aquaman_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/xLPdriXp0q78y1c9iWc3k47V10o.jpg",
     genre: "Action, Adventure, Fantasy",
     rating: "6.8",
     overview: "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
@@ -343,7 +343,7 @@ const movieDatabase = {
   joker1: {
     title: "Joker",
     year: "2019",
-    poster: "https://upload.wikimedia.org/wikipedia/en/e/e1/Joker_%282019_film%29_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
     genre: "Crime, Drama, Thriller",
     rating: "8.4",
     overview: "A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
@@ -354,7 +354,7 @@ const movieDatabase = {
   thebatman: {
     title: "The Batman",
     year: "2022",
-    poster: "https://upload.wikimedia.org/wikipedia/en/f/ff/The_Batman_%28film%29_poster.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
     genre: "Action, Crime, Drama",
     rating: "7.8",
     overview: "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption.",
@@ -363,4 +363,4 @@ const movieDatabase = {
     downloadUrl: "#"
   }
 };
-  
+
