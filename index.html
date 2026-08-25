@@ -1,274 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MovieVerse</title>
+    <!-- Connects this page to style.css -->
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <title>MovieHub</title>
+</head>
 
-        html {
-            scroll-behavior: smooth;
-        }
+<body>
 
-        body {
-            background: #0b0b0f;
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+    <!-- Header -->
+    <header>
+        <h1>🎬 MovieHub</h1>
 
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        button,
-        input {
-            font-family: inherit;
-        }
-
-        /* =========================
-           NAVBAR
-        ========================== */
-
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 70px;
-
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            padding: 0 6%;
-
-            background: rgba(11, 11, 15, 0.9);
-            backdrop-filter: blur(12px);
-
-            z-index: 1000;
-
-            border-bottom: 1px solid #202027;
-        }
-
-        .logo {
-            font-size: 25px;
-            font-weight: 800;
-        }
-
-        .logo span {
-            color: #e50914;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 28px;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: #aaa;
-            font-size: 14px;
-            transition: 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: white;
-        }
-
-        .search-box {
-            width: 230px;
-            background: #17171d;
-            border: 1px solid #292931;
-            border-radius: 25px;
-            padding: 9px 16px;
-        }
-
-        .search-box input {
-            width: 100%;
-            border: none;
-            outline: none;
-            background: transparent;
-            color: white;
-        }
-
-        .search-box input::placeholder {
-            color: #777;
-        }
+        <input
+            type="text"
+            class="search-box"
+            placeholder="Search movies..."
+            id="searchInput"
+        >
+    </header>
 
 
-        /* =========================
-           HERO
-        ========================== */
+    <!-- Main Content -->
+    <main>
 
-        .hero {
-            min-height: 650px;
+        <h2 class="section-title">Movies</h2>
 
-            display: flex;
-            align-items: center;
+        <div class="movie-grid" id="movieGrid">
 
-            padding: 120px 6% 70px;
+            <!-- Movie 1 -->
+            <div class="movie-card">
+                <img
+                    src="https://via.placeholder.com/300x450?text=Movie+1"
+                    alt="Movie 1"
+                >
 
-            background:
-                linear-gradient(
-                    90deg,
-                    #0b0b0f 0%,
-                    rgba(11, 11, 15, 0.9) 35%,
-                    rgba(11, 11, 15, 0.4) 70%,
-                    #0b0b0f 100%
-                ),
-                url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=2000&q=85");
+                <div class="movie-info">
+                    <h3>Movie One</h3>
+                    <p>2026</p>
 
-            background-size: cover;
-            background-position: center;
-        }
-
-        .hero-content {
-            max-width: 650px;
-        }
-
-        .hero h1 {
-            font-size: clamp(45px, 6vw, 75px);
-            line-height: 1;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            color: #c5c5c5;
-            line-height: 1.7;
-            max-width: 550px;
-            margin-bottom: 28px;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 12px;
-        }
-
-        .btn {
-            border: none;
-            padding: 13px 23px;
-            border-radius: 7px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: 0.25s;
-        }
-
-        .btn-primary {
-            background: #e50914;
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: #ff1a25;
-            transform: translateY(-2px);
-        }
-
-        .btn-secondary {
-            background: rgba(255,255,255,0.12);
-            color: white;
-            border: 1px solid rgba(255,255,255,0.15);
-        }
-
-        .btn-secondary:hover {
-            background: rgba(255,255,255,0.2);
-        }
+                    <a href="#" class="watch-button">
+                        View Movie
+                    </a>
+                </div>
+            </div>
 
 
-        /* =========================
-           MAIN
-        ========================== */
+            <!-- Movie 2 -->
+            <div class="movie-card">
+                <img
+                    src="https://via.placeholder.com/300x450?text=Movie+2"
+                    alt="Movie 2"
+                >
 
-        main {
-            padding: 30px 6% 80px;
-        }
+                <div class="movie-info">
+                    <h3>Movie Two</h3>
+                    <p>2026</p>
 
-        .section {
-            margin-top: 40px;
-        }
-
-        .section-header {
-            margin-bottom: 22px;
-        }
-
-        .section-header h2 {
-            font-size: 26px;
-        }
+                    <a href="#" class="watch-button">
+                        View Movie
+                    </a>
+                </div>
+            </div>
 
 
-        /* =========================
-           MOVIE GRID
-        ========================== */
+            <!-- Movie 3 -->
+            <div class="movie-card">
+                <img
+                    src="https://via.placeholder.com/300x450?text=Movie+3"
+                    alt="Movie 3"
+                >
 
-        .movie-grid {
-            display: grid;
+                <div class="movie-info">
+                    <h3>Movie Three</h3>
+                    <p>2026</p>
 
-            grid-template-columns:
-                repeat(auto-fill, minmax(170px, 1fr));
+                    <a href="#" class="watch-button">
+                        View Movie
+                    </a>
+                </div>
+            </div>
 
-            gap: 22px;
-        }
 
-        .movie-card {
-            background: #141419;
-            border-radius: 10px;
-            overflow: hidden;
+            <!-- Movie 4 -->
+            <div class="movie-card">
+                <img
+                    src="https://via.placeholder.com/300x450?text=Movie+4"
+                    alt="Movie 4"
+                >
 
-            border: 1px solid rgba(255,255,255,0.04);
+                <div class="movie-info">
+                    <h3>Movie Four</h3>
+                    <p>2026</p>
 
-            transition: 0.3s;
-        }
+                    <a href="#" class="watch-button">
+                        View Movie
+                    </a>
+                </div>
+            </div>
 
-        .movie-card:hover {
-            transform: translateY(-7px);
-            border-color: rgba(229,9,20,0.4);
-        }
 
-        .poster {
-            width: 100%;
-            aspect-ratio: 2 / 3;
-            object-fit: cover;
-            display: block;
-        }
+            <!-- Movie 5 -->
+            <div class="movie-card">
+                <img
+                    src="https://via.placeholder.com/300x450?text=Movie+5"
+                    alt="Movie 5"
+                >
 
-        .movie-info {
-            padding: 13px;
-        }
+                <div class="movie-info">
+                    <h3>Movie Five</h3>
+                    <p>2026</p>
 
-        .movie-title {
-            font-size: 15px;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
+                    <a href="#" class="watch-button">
+                        View Movie
+                    </a>
+                </div>
+            </div>
 
-        .movie-year {
-            color: #888;
-            font-size: 12px;
-        }
 
-        .movie-buttons {
-            display: flex;
-            gap: 7px;
-            margin-top: 12px;
-        }
+            <!-- Movie 6 -->
+            <div class="movie-card">
+                <img
+                    src="https://via.placeholder.com/300x450?text=Movie+6"
+                    alt="Movie 6"
+                >
 
-        .movie-button {
-            flex: 1;
-            border: none;
-            padding: 8px 5px;
-            border-radius: 5px;
-            cursor: pointer;
+                <div class="movie-info">
+                    <h3>Movie Six</h3>
+                    <p>2026</p>
 
-            background: #e50914;
-            color: white;
+                    <a href="#" class="watch-button">
+                        View Movie
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 MovieHub. All rights reserved.</p>
+    </footer>
+
+
+    <!-- Search Function -->
+    <script>
+        const searchInput = document.getElementById("searchInput");
+        const movieCards = document.querySelectorAll(".movie-card");
+
+        searchInput.addEventListener("input", function () {
+
+            const searchText = searchInput.value.toLowerCase();
+
+            movieCards.forEach(function (card) {
+
+                const movieTitle = card
+                    .querySelector("h3")
+                    .textContent
+                    .toLowerCase();
+
+                if (movieTitle.includes(searchText)) {
+                    card.style.display = "";
+                } else {
+                    card.style.display = "none";
+                }
+
+            });
+
+        });
+    </script>
+
+</body>
+</html>
 
             font-size: 11px;
             font-weight: bold;
